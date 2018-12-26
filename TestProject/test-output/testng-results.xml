@@ -1,25 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2039" started-at="2018-12-26T20:45:33Z" finished-at="2018-12-26T20:45:36Z">
+  <suite name="Default suite" duration-ms="41" started-at="2018-12-26T21:03:46Z" finished-at="2018-12-26T21:03:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2039" started-at="2018-12-26T20:45:33Z" finished-at="2018-12-26T20:45:36Z">
-      <class name="TestPackage.testTimeout">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestPackage.testTimeout@174d20a]" name="setup" is-config="true" duration-ms="8" started-at="2018-12-27T02:15:33Z" finished-at="2018-12-27T02:15:33Z">
+    <test name="Default test" duration-ms="41" started-at="2018-12-26T21:03:46Z" finished-at="2018-12-26T21:03:46Z">
+      <class name="TestPackage.TestParameters">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.TestParameters@66d2e7d9]" name="setup" is-config="true" duration-ms="0" started-at="2018-12-27T02:33:46Z" finished-at="2018-12-27T02:33:46Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\nc00338002\AppData\Local\Temp\testng-eclipse--1021652098\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\nc00338002\AppData\Local\Temp\testng-eclipse--1021652098\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="f2()[pri:0, instance:TestPackage.testTimeout@174d20a]" name="f2" duration-ms="2012" started-at="2018-12-27T02:15:33Z" finished-at="2018-12-27T02:15:36Z">
+        <test-method status="FAIL" signature="f1(java.lang.String)[pri:0, instance:TestPackage.TestParameters@66d2e7d9]" name="f1" duration-ms="0" started-at="2018-12-27T02:33:46Z" finished-at="2018-12-27T02:33:46Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'response' is required by @Test on method f1 but has not been marked @Optional or defined
+in C:\Users\nc00338002\AppData\Local\Temp\testng-eclipse--1021652098\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'response' is required by @Test on method f1 but has not been marked @Optional or defined
+in C:\Users\nc00338002\AppData\Local\Temp\testng-eclipse--1021652098\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestPackage.testTimeout@174d20a]" name="cleanup" is-config="true" duration-ms="0" started-at="2018-12-27T02:15:36Z" finished-at="2018-12-27T02:15:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- TestPackage.testTimeout -->
+        </test-method> <!-- f1 -->
+      </class> <!-- TestPackage.TestParameters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
