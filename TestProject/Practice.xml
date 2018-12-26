@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice suite" parallel="tests" thread-count="2">
+	<test name="Practice test1">
+		<parameter name="browser" value="chrome"></parameter>
+			<classes>
+			<class name="TestPackage.PracticeTest1"></class>
+		</classes>
+	</test>
+	<test name="Practice test2">
+		<parameter name="browser" value="firefox"></parameter>
+			<classes>
+			<class name="TestPackage.PracticeTest2"></class>
+		</classes>
+	</test>
+</suite>

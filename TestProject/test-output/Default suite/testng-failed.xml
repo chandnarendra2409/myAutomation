@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestPackage.TestParameters">
+      <class name="TestPackage.NewTest">
         <methods>
-          <include name="f1"/>
-          <include name="setup"/>
+          <include name="f2"/>
         </methods>
-      </class> <!-- TestPackage.TestParameters -->
+      </class> <!-- TestPackage.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
