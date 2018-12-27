@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Practice suite]" parallel="tests">
-  <test name="Practice test1(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="TestPackage.PracticeTest1">
+      <class name="TestPackage.NewTest">
         <methods>
-          <include name="f1" invocation-numbers="0"/>
-          <include name="cleanup"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- TestPackage.PracticeTest1 -->
-    </classes>
-  </test> <!-- Practice test1(failed) -->
-  <test name="Practice test2(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="TestPackage.PracticeTest2">
-        <methods>
-          <include name="setup"/>
-          <include name="cleanup"/>
           <include name="f2"/>
         </methods>
-      </class> <!-- TestPackage.PracticeTest2 -->
+      </class> <!-- TestPackage.NewTest -->
     </classes>
-  </test> <!-- Practice test2(failed) -->
-</suite> <!-- Failed suite [Practice suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
