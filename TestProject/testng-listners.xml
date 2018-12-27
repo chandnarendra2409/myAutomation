@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Listeners testsuite">
-	<test name="Listeners test">
+	<test name="Listeners test1">
 		<classes>
-			<class name="testPackage.listen"> </class>
+			<class name="TestPackage.ListenerTest1"> </class>
+		</classes>
+	</test>
+	<test name="Listeners test2">
+		<classes>
+			<class name="TestPackage.ListenerTest2"> </class>
 		</classes>
 	</test>
 </suite>
