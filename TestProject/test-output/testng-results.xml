@@ -1,69 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Practice suite" duration-ms="32751" started-at="2018-12-27T22:43:19Z" finished-at="2018-12-27T22:43:52Z">
+  <suite name="Default suite" duration-ms="37" started-at="2018-12-27T22:54:13Z" finished-at="2018-12-27T22:54:13Z">
     <groups>
     </groups>
-    <test name="Practice test2" duration-ms="26819" started-at="2018-12-27T22:43:19Z" finished-at="2018-12-27T22:43:46Z">
-      <class name="TestPackage.PracticeParallelTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestPackage.PracticeParallelTest@2a2d45ba]" name="setup" is-config="true" duration-ms="13009" started-at="2018-12-28T04:13:19Z" finished-at="2018-12-28T04:13:32Z">
+    <test name="Default test" duration-ms="37" started-at="2018-12-27T22:54:13Z" finished-at="2018-12-27T22:54:13Z">
+      <class name="TestPackage.DataProviderTest">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.DataProviderTest@2344fc66]" name="f" duration-ms="8" started-at="2018-12-28T04:24:13Z" data-provider="inputs" finished-at="2018-12-28T04:24:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="f2()[pri:0, instance:TestPackage.PracticeParallelTest@2a2d45ba]" name="f2" duration-ms="9124" started-at="2018-12-28T04:13:32Z" finished-at="2018-12-28T04:13:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="cleanup(java.lang.String)[pri:0, instance:TestPackage.PracticeParallelTest@2a2d45ba]" name="cleanup" is-config="true" duration-ms="4680" started-at="2018-12-28T04:13:42Z" finished-at="2018-12-28T04:13:46Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.DataProviderTest@2344fc66]" name="f" duration-ms="1" started-at="2018-12-28T04:24:13Z" data-provider="inputs" finished-at="2018-12-28T04:24:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[AUDI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- TestPackage.PracticeParallelTest -->
-    </test> <!-- Practice test2 -->
-    <test name="Practice test1" duration-ms="32751" started-at="2018-12-27T22:43:19Z" finished-at="2018-12-27T22:43:52Z">
-      <class name="TestPackage.PracticeParallelTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestPackage.PracticeParallelTest@50c87b21]" name="setup" is-config="true" duration-ms="10244" started-at="2018-12-28T04:13:19Z" finished-at="2018-12-28T04:13:30Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.DataProviderTest@2344fc66]" name="f" duration-ms="2" started-at="2018-12-28T04:24:13Z" data-provider="inputs" finished-at="2018-12-28T04:24:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[benz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c300]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="f2()[pri:0, instance:TestPackage.PracticeParallelTest@50c87b21]" name="f2" duration-ms="20179" started-at="2018-12-28T04:13:30Z" finished-at="2018-12-28T04:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="cleanup(java.lang.String)[pri:0, instance:TestPackage.PracticeParallelTest@50c87b21]" name="cleanup" is-config="true" duration-ms="2314" started-at="2018-12-28T04:13:50Z" finished-at="2018-12-28T04:13:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- TestPackage.PracticeParallelTest -->
-    </test> <!-- Practice test1 -->
-  </suite> <!-- Practice suite -->
+        </test-method> <!-- f -->
+      </class> <!-- TestPackage.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
