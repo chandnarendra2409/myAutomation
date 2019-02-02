@@ -8,7 +8,7 @@ public class testTimeout {
 	
 	@BeforeClass
 		public void setup(){
-			System.out.println("before class");
+			System.out.println("before class1");
 		}
 	@AfterClass
 		public void cleanup(){

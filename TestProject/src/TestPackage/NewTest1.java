@@ -9,7 +9,7 @@ public class NewTest1 {
 	final int aa;
 	
 	NewTest1(){
-		this.aa=3;
+		this.aa=4;
 	}
 	@Test
   public void f() {
