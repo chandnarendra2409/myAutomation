@@ -3,6 +3,8 @@ package TestPackage;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class NewTest {
@@ -16,7 +18,9 @@ public class NewTest {
 		driver.get("https://letskodeit.teachable.com/");
 		driver.manage().window().maximize();
 		System.out.println("Firefox opened");
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		DesiredCapabilities cap=DesiredCapabilities.chrome();
+		cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		jc.clickloginbtn();
 		jc.enterusername();
 		jc.enterpassword();

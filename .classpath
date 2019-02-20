@@ -20,5 +20,12 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/lib/c3p0-0.9.1-pre6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/lib/c3p0-0.9.1-pre6.src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/lib/jboss-common-jdbc-wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/lib/jboss-common-jdbc-wrapper-src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/lib/protobuf-java-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SanketW/Downloads/mysql-connector-java-8.0.15/lib/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
